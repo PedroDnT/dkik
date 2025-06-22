@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# MongoDB
+*.mongodb
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Local development
+.python-version
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Project specific
+twilio_credentials.json
+openai_credentials.json
+datajud_credentials.json
